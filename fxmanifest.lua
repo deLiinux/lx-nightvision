@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Liinux'
 description 'Thermal/Night Goggles'
-version '1.0'
+version '1.1'
 
 client_scripts {	
 	'client.lua',
@@ -11,4 +11,8 @@ client_scripts {
 
 server_scripts {	
 	'server.lua',
+}
+
+shared_scripts {
+	'config.lua',
 }

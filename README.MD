@@ -4,6 +4,9 @@ Cleaned it up and made some changes. Added thermal.
 
 If you want the sound, place the nv.ogg file interact-sound.
 
+1.1 update
+- Added config file to make it easier for everyone.
+
 Place the item in qb-core/shared.lua:
 ```
 
