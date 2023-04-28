@@ -38,12 +38,12 @@ local function toggleGoggles(setGoggles, visionType)
     elseif visionType == 'thermal' then
         SetSeethrough(setGoggles)
         if setGoggles then
-			SeethroughSetHiLightIntensity(Config.Options.HiLightIntensity)
-			SeethroughSetNoiseAmountMax(Config.Options.NoiseAmountMax)
-			SeethroughSetNoiseAmountMin(Config.Options.NoiseAmountMinimum)
-			SeethroughSetHeatscale(Config.Options.Heatscale[1], Config.Seethrough.Heatscale[2])
-			SeethroughSetFadeStartDistance(Config.Options.FadeStartDistance)
-			SeethroughSetMaxThickness(Config.Options.MaxThickness)
+		SeethroughSetHiLightIntensity(Config.Options.HiLightIntensity)
+		SeethroughSetNoiseAmountMax(Config.Options.NoiseAmountMax)
+		SeethroughSetNoiseAmountMin(Config.Options.NoiseAmountMinimum)
+		SeethroughSetHeatscale(Config.Options.Heatscale[1], Config.Seethrough.Heatscale[2])
+		SeethroughSetFadeStartDistance(Config.Options.FadeStartDistance)
+		SeethroughSetMaxThickness(Config.Options.MaxThickness)
         else
             SeethroughReset()
         end
