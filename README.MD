@@ -6,7 +6,11 @@ If you want the sound, place the nv.ogg file interact-sound.
 
 1.1 update
 - Added config file to make it easier for everyone.
-- Added so you can turn item on or off through config.
+
+1.2 update
+- Updated code and config.
+- Separated clothing numbers from the male and female characters.
+- Added more customizability for the thermal goggles.
 
 Place the item in qb-core/shared.lua:
 ```
