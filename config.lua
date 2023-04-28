@@ -11,7 +11,7 @@ Config.ItemOnFemale = -1        -- Item number for goggles model when equipped f
 Config.ItemOffFemale = -1       -- Item number for goggles model when unequipped for female character, -1 to remove it
 
 
-Config.Options = {              -- THERMAL OPTIONS
+Config.Seethrough = {           -- THERMAL OPTIONS
     HiLightIntensity = 1.0,     -- Controls the intensity of the highlight for entities in thermal vision
     NoiseAmountMax = 0.0,       -- Controls the maximum amount of noise in the thermal vision
     NoiseAmountMin = 0.0,       -- Controls the minimum amount of noise in the thermal vision
